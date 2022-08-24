@@ -9,6 +9,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Factories\" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="TanvirArjel.Extensions.Microsoft.DependencyInjection" Version="2.1.0" />
   </ItemGroup>
 
