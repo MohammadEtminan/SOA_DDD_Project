@@ -9,6 +9,5 @@ namespace OnlineStore.Domain.Repositories
     public interface IPersonRepository : Contract.Abstracts.IRepository<Person, Guid>
     {
         Task<Person> FindByNameAsync(string name);
-
     }
 }

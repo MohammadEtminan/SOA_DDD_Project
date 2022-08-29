@@ -12,4 +12,8 @@
     <PackageReference Include="TanvirArjel.Extensions.Microsoft.DependencyInjection" Version="2.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineStore.Domain.Contract\OnlineStore.Domain.Contract.csproj" />
+  </ItemGroup>
+
 </Project>
