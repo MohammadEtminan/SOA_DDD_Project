@@ -5,6 +5,7 @@ VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectDescription", "ProjectDescription", "{6E018231-B0E9-4997-B552-818C3440DDBC}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Description", "DDD.Description\DDD.Description.csproj", "{F753BAEB-CD23-4631-B896-5A4D11D36D97}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectSource", "ProjectSource", "{62811877-3959-4A04-8672-8D816833281A}"
 EndProject
@@ -16,7 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_DomainLayer", "03_Domain
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Infrastructure", "04_Infrastructure", "{FF6675AD-0465-4245-8159-E979EC41435A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineStore.Domain.Contract", "OnlineStore.Domain.Contract\OnlineStore.Domain.Contract.csproj", "{90EC76EB-5E92-4A29-8519-26339BDA5616}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineStore.Domain", "OnlineStore.Domain\OnlineStore.Domain.csproj", "{4EC36934-4046-4449-A543-43BD56756F61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStore.EntityFrameworkCore", "OnlineStore.EntityFrameworkCore\OnlineStore.EntityFrameworkCore.csproj", "{0DFF030B-508F-401F-A6F6-B23117D2DA7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
