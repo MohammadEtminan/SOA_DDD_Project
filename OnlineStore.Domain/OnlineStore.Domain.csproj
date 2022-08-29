@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OnlineStore.Domain.Contract\OnlineStore.Domain.Contract.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Factories\" />
   </ItemGroup>
 
