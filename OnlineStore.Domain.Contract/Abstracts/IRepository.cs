@@ -1,10 +1,12 @@
-﻿using System.Threading.Tasks;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace OnlineStore.Domain.Contract.Abstracts
 {
-    public interface IRepository<T_Entity, U_PrimaryKey>
-                                  where T_Entity : class
+    public interface IRepository<T_Entity, U_PrimaryKey> where T_Entity : class
     {
         Task InsertAsync(T_Entity entity);
         Task UpdateAsync(T_Entity entity);

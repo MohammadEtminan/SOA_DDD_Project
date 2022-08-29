@@ -9,6 +9,8 @@
         //04_Infrastructure
         #endregion
 
+        #region [-  Step 2: Adding Domain Layer projects -]
+
         #region [- Create ContractProject in the DomainLayer -]
         //  1-Project.Domain.Contract(Repository DesignPattern)
         //  1.0-Create Abstracts Folder
@@ -30,6 +32,8 @@
         //	2.8-Create PersonFactoryService in Factories for FactoryDesignPattern 
         #endregion
 
+        #endregion
+
         #region [- Step 3: Create Infrastructure Layer projects -]
 
         //	1-Project.EntityFrameworkCore
@@ -49,5 +53,7 @@
 
 
         #endregion//***************************************************
+
+
     }
 }
