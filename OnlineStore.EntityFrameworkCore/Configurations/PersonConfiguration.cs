@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace OnlineStore.EntityFrameworkCore.Configurations
 {
-    internal class PersonConfiguration : IEntityTypeConfiguration<Person>
+    public class PersonConfiguration : IEntityTypeConfiguration<Person>
     {
         #region [- Configure() -] 
         public void Configure(EntityTypeBuilder<Person> builder)

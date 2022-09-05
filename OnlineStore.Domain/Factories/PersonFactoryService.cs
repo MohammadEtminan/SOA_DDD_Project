@@ -10,10 +10,12 @@ namespace OnlineStore.Domain.Factories
     {
         private readonly IPersonRepository _personRepository;
 
+        #region [- ctor -]
         public PersonFactoryService(IPersonRepository personRepository)
         {
             _personRepository = personRepository;
         }
+        #endregion
 
         #region [- CreateAsync() -]
         public async Task<Person> CreateAsync(string firstName, string lastName)

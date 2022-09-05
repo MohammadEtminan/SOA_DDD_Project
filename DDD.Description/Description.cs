@@ -54,6 +54,35 @@
 
         #endregion//***************************************************
 
+        #region [- Step 4: Create Application Layer projects -]
+
+        #region [- 1- Project.Application.Contract ==> for Application Dto & all other Application contracts -]
+        //  1.1-Create project inner layers:
+        //			1-Abstracts,2-Base		
+        //	1.2-Create IPersonDto in Abstracts/Dtos
+        //	1.3-Create PersonBaseDto in Base/Dtos
+        #endregion
+
+        #region [- 2- Project.Application -]
+        //		2.1-Create project inner layers:
+        //			1-Abstracts,2-Dtos,3-Profiles,4-Services
+        //		2.2-Install TanvirArjel.Extension.Microsoft.DependencyInjection  by nuget
+        //		2.3-Install AutoMapper.Extension.Microsoft.DependencyInjection by nuget
+        //		2.4-AddRef[Project.Domain]
+        //		2.5-AddRef[Project.Application.Contract]
+        //		2.6-Create IPersonAppService in Abstracts for IOC
+        //		2.7-Create PersonDto for Get Flow in Dtos
+        //		2.8-Add up GetAsync(Guid id) & GetListAsync() in IPersonAppService
+        //		2.9-Create CreatePersonDto for Post Flow in Dtos
+        //		2.10-Add up CreateAsync(CreatePersonDto input) in IPersonAppService
+        //		2.11-Create UpdatePersonDto for Put Flow in Dtos
+        //		2.12-Add up UpdateAsync(Guid id, UpdatePersonDto input) in IPersonAppService
+        //		2.13-Create AutoMapperProfile in Profiles
+        //		2.14-Create PersonAppService in Services
+        #endregion
+
+        #endregion
+
 
     }
 }
