@@ -1,10 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using OnlineStore.Domain.Aggregates;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using OnlineStore.Domain.Aggregates;
 
 namespace OnlineStore.EntityFrameworkCore.Services
 {
